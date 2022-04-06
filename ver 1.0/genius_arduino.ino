@@ -15,14 +15,14 @@ int passo = 0;
 bool game_over = false;
 
 void setup() {
-  // Leds
+  // Leds indicadores
   pinMode(2, OUTPUT);
   pinMode(3, OUTPUT);
   pinMode(4, OUTPUT);
   pinMode(5, OUTPUT);
-  // Buzzer
+  // Buzzer do sistema
   pinMode(7, OUTPUT);
-  // Botões
+  // Botões do projeto
   pinMode(8, INPUT);
   pinMode(9, INPUT);
   pinMode(10, INPUT);
